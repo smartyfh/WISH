@@ -95,7 +95,7 @@ def main(args):
             
         print("current precision at 100, val: {:.4f}, test: {:.4f}".format(prec_val.item(), prec_test.item()))
         
-        print('{} epoch:{} loss:{:.4f} Best Precision:({}){:.4f}'.format(model.get_name(), epoch, np.mean(avg_loss), best_precision_epoch, best_precision))
+        print('{} epoch:{} loss:{:.4f} Best Val Precision:({}){:.4f}'.format(model.get_name(), epoch, np.mean(avg_loss), best_precision_epoch, best_precision))
         
         with open("results-WISH.txt", "a") as text_file:
             print("current precision at 100, val: {:.4f}, test: {:.4f}\n".format(prec_val.item(), prec_test.item()), file=text_file)
@@ -111,7 +111,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     # Required parameters
-    parser.add_argument("--dataset", default='reuters', type=str)
+    parser.add_argument("--dataset", default='ng20', type=str)
     parser.add_argument("--data_fmt", default='tf', type=str)
     parser.add_argument("--single_label_flag", action='store_true')
     parser.add_argument("--integration", default='sum', type=str,
@@ -124,7 +124,7 @@ if __name__ == "__main__":
     parser.add_argument("--num_bits", default=4, type=int)
     parser.add_argument("--topicNum", default=4, type=int,
                         help="always the same as num_bits")
-    parser.add_argument("--topicDim", default=50, type=int)
+    parser.add_argument("--topicDim", default=100, type=int)
     
     parser.add_argument("--lr", default=0.001, type=float)
     parser.add_argument("--num_epochs", default=1000, type=int) #########
