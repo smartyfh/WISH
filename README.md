@@ -11,12 +11,12 @@ Code in Python for the paper "Unsupervised Few-Bits Semantic Hashing with Implic
     
 2. Training
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If the datasets have multiple labels for a single sample, run
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If the datasets have multiple labels for a single sample, run
 
-    python3 train_WISH.py
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    python3 train_WISH.py
     
-&nbsp;&nbsp; Otherwise, run
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Otherwise, run
 
  
-    python3 train_WISH.py --single_label_flag
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    python3 train_WISH.py --single_label_flag
 
