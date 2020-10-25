@@ -13,7 +13,7 @@ Code in Python for the paper "Unsupervised Few-Bits Semantic Hashing with Implic
 
 &nbsp;&nbsp; If the datasets have multiple labels for a single sample, run
 
-   ```
+    ```
     python3 train_WISH.py
     ```
 &nbsp;&nbsp; Otherwise, run
