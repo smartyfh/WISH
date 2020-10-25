@@ -1,6 +1,8 @@
 # WISH
 
-Code in Python for the paper "Unsupervised Few-Bits Semantic Hashing with Implicit Topics Modeling".
+Few-Bits Semantic Hashing
+
+Code in Python for the paper "Unsupervised Few-Bits Semantic Hashing with Implicit Topics Modeling" [Findings of EMNLP 2020].
 
 ### Train
 1. Data Preprocessing
