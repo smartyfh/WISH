@@ -17,12 +17,12 @@ Code in Python for the paper "Unsupervised Few-Bits Semantic Hashing with Implic
    If the datasets have multiple labels for a single sample, run
 
    ```
-     python3 train_WISH.py
+   python3 train_WISH.py
    ```
     
    Otherwise, run
 
     ```
-      python3 train_WISH.py --single_label_flag
+    python3 train_WISH.py --single_label_flag
     ```
     
