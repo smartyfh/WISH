@@ -5,6 +5,7 @@ Few-Bits Semantic Hashing
 Code in Python for the paper "Unsupervised Few-Bits Semantic Hashing with Implicit Topics Modeling" [Findings of EMNLP 2020].
 
 ### Train
+
 1. Data Preprocessing
 
     ```
@@ -13,12 +14,15 @@ Code in Python for the paper "Unsupervised Few-Bits Semantic Hashing with Implic
     
 2. Training
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If the datasets have multiple labels for a single sample, run
+   If the datasets have multiple labels for a single sample, run
 
+   ```
      python3 train_WISH.py
+   ```
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Otherwise, run
+   Otherwise, run
 
- 
-     python3 train_WISH.py --single_label_flag
-
+    ```
+      python3 train_WISH.py --single_label_flag
+    ```
+    
