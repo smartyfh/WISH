@@ -7,7 +7,7 @@ Code in Python for the paper "**Unsupervised Few-Bits Semantic Hashing with Impl
 ### Model
 
 <p align="center">
-  <img src="models/20WISH.png" width="70%" />
+  <img src="models/20WISH.png" width="65%" />
 </p>
 
 ### Train
