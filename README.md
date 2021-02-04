@@ -2,7 +2,7 @@
 
 Few-Bits Semantic Hashing
 
-Code in Python for the paper "Unsupervised Few-Bits Semantic Hashing with Implicit Topics Modeling", Findings of EMNLP 2020. [[paper](https://www.aclweb.org/anthology/2020.findings-emnlp.233/)]
+Code in Python for the paper "**Unsupervised Few-Bits Semantic Hashing with Implicit Topics Modeling**", Findings of EMNLP 2020. [[paper](https://www.aclweb.org/anthology/2020.findings-emnlp.233/)]
 
 ### Model
 
